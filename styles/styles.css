@@ -1,62 +1,70 @@
-:root {
-    --primary-color: darkblue;
-    --text-color: white;
-    --border-color: black;
-    --bg-light: #eee;
-    --shadow-color: gray;
-    --spacing-sm: 10px;
-    --spacing-md: 20px;
-    --spacing-lg: 1rem;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
-    background-color: var(--primary-color);
-    padding: var(--spacing-sm);
+    background-color: cornflowerblue;
+    padding: 10px;
+    display: flex;
 }
 
 nav a {
-    color: var(--text-color);
+    color: white;
     display: block;
-    padding: var(--spacing-md);
+    padding: 20px;
 }
 
 h1 {
-    color: var(--primary-color);
-}
-
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid var(--border-color);
-    padding: 2px;
-    box-shadow: 0 0 30px var(--shadow-color);
-}
-
-p {
-    padding: 0;
+    color: cornflowerblue;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 main {
     max-width: 840px;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+    margin-top: 22px;
+}
+
+p {
+    margin: 1rem;
+}
+
 aside {
-    width: 20rem;
-    margin: var(--spacing-lg);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: var(--spacing-lg);
-    background-color: var(--bg-light);
-    color: #333;
+    width: 20em;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+    margin-top: 1rem;
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px solid var(--border-color);
+    margin-top: 1em;
+    border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
