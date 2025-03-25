@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #206984;
+    --secondary-color: #FFFAFF;
+    --accent1-color: #303036;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--accent1-color);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+p {
+    color: var(--accent1-color);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
